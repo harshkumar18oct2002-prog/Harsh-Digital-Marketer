@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me | Harsh</title>
+    <meta name="description" content="Learn more about Harsh Kumar, graphic designer and front-end design enthusiast." />
+    <meta name="author" content="Harsh" />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="Home.html">HARSH.</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+            <a href="Contact.html" class="header-btn">Let's Talk</a>
+        </nav>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+
+                <!-- About Image -->
+                <div class="about-img-wrapper">
+                    <img src="assets/harsh-profile.jpg" alt="Harsh Kumar - Graphic Designer">
+                    <div class="experience-badge">
+                        <span class="badge-number">Fresh</span>
+                        <span class="badge-text">Perspective &amp; Energy</span>
+                    </div>
+                </div>
+
+                <!-- About Content -->
+                <div class="about-content">
+                    <span class="section-tag">Get to Know Me</span>
+                    <h2>Hi, I'm Harsh Kumar</h2>
+                    <h3>Passionate Graphic Designer &amp; Front-End Design Enthusiast</h3>
+
+                    <p>
+                        I am a dedicated graphic designer with a strong focus on creating compelling visual content, targeted social media campaign assets, and clean conceptual demo websites. I believe that great design is not just about aesthetics, but about solving problems and communicating a brand's core message effectively.
+                    </p>
+
+                    <p>
+                        Even as I step into the professional space with fresh hands-on project experience, I bring deep enthusiasm, precision with aspect ratios and layout structures, and a constant drive to turn creative ideas into engaging digital realities from scratch.
+                    </p>
+
+                    <!-- Skills Breakdown -->
+                    <div class="about-skills-list">
+                        <div class="skill-category">
+                            <h4>Visual &amp; Graphic Design</h4>
+                            <p>Specialized in crafting engaging social media posts, promotional graphics, and brand assets optimized for high engagement across digital platforms.</p>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Web &amp; Layout Design</h4>
+                            <p>Building clean, responsive HTML and CSS demo website structures focused on user experience, modern layout principles, and visual hierarchy.</p>
+                        </div>
+                    </div>
+
+                    <!-- Call to Action -->
+                    <div class="about-actions">
+                        <a href="Contact.html" class="btn-primary">Let's Connect</a>
+                        <!-- TODO: replace # with your actual resume PDF path, e.g. assets/harsh-resume.pdf -->
+                        <a href="#" class="btn-secondary">Download CV</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo"><a href="Home.html">HARSH.</a></div>
+                    <p>Digital marketer &amp; growth strategist helping brands show up, get found, and grow online through SEO, ads and content.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Instagram">ig</a>
+                        <a href="#" aria-label="Twitter">tw</a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="project.html">Projects</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 class="footer-heading">Get in Touch</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:+917070546957">+91 7070546957</a></li>
+                        <li><a href="mailto:your-email@example.com">your-email@example.com</a></li>
+                        <li><a href="Contact.html">Send a message &rarr;</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Harsh Kumar. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#home">Back to top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

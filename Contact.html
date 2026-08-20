@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Harsh</title>
+    <meta name="description" content="Get in touch with Harsh Kumar for design, development or marketing collaborations." />
+    <meta name="author" content="Harsh" />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="Home.html">HARSH.</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+            <a href="Contact.html" class="header-btn">Let's Talk</a>
+        </nav>
+    </header>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-header">
+                <h2>Let's Collaborate</h2>
+                <p>Have a project in mind or want to discuss a design idea? Feel free to reach out!</p>
+            </div>
+
+            <div class="contact-grid">
+
+                <!-- Contact Details -->
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>I am currently available for new opportunities, creative collaborations, or design inquiries.</p>
+
+                    <ul class="contact-details-list">
+                        <li>
+                            <strong>Mobile:</strong>
+                            <a href="tel:+917070546957">+91 7070546957</a>
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            <a href="mailto:your-email@example.com">your-email@example.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="What is this regarding?" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo"><a href="Home.html">HARSH.</a></div>
+                    <p>Digital marketer &amp; growth strategist helping brands show up, get found, and grow online through SEO, ads and content.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Instagram">ig</a>
+                        <a href="#" aria-label="Twitter">tw</a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="project.html">Projects</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 class="footer-heading">Get in Touch</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:+917070546957">+91 7070546957</a></li>
+                        <li><a href="mailto:your-email@example.com">your-email@example.com</a></li>
+                        <li><a href="Contact.html">Send a message &rarr;</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Harsh Kumar. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#home">Back to top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

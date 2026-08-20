@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Harsh</title>
+    <meta name="description" content="A showcase of conceptual demo websites and digital designs built by Harsh." />
+    <meta name="author" content="Harsh" />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="Home.html">HARSH.</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+            <a href="Contact.html" class="header-btn">Let's Talk</a>
+        </nav>
+    </header>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <p class="section-subtitle">A showcase of conceptual demo websites and digital designs I've built.</p>
+
+            <div class="projects-grid">
+
+                <!-- Project 1: School Website Demo -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="assets/school-website-mockup.jpg" alt="School Website Demo Mockup">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Web Design &amp; Dev</span>
+                        <h3>School Management Portal</h3>
+                        <p>A clean, responsive conceptual website built for educational institutions, featuring sections for admissions, notice boards, courses, and contact information.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn-live">Live Demo</a>
+                            <a href="#" target="_blank" class="btn-code">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Hospital Website Demo -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="assets/hospital-website-mockup.jpg" alt="Hospital Website Demo Mockup">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Web Design &amp; Dev</span>
+                        <h3>Healthcare &amp; Hospital Portal</h3>
+                        <p>A professional layout designed for medical facilities, highlighting doctor schedules, emergency services, department breakdowns, and an appointment booking interface.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn-live">Live Demo</a>
+                            <a href="#" target="_blank" class="btn-code">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo"><a href="Home.html">HARSH.</a></div>
+                    <p>Digital marketer &amp; growth strategist helping brands show up, get found, and grow online through SEO, ads and content.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Instagram">ig</a>
+                        <a href="#" aria-label="Twitter">tw</a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="project.html">Projects</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 class="footer-heading">Get in Touch</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:+917070546957">+91 7070546957</a></li>
+                        <li><a href="mailto:your-email@example.com">your-email@example.com</a></li>
+                        <li><a href="Contact.html">Send a message &rarr;</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Harsh Kumar. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#home">Back to top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
